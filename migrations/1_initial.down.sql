@@ -1,0 +1,3 @@
+BEGIN;
+DROP TABLE students;
+COMMIT;
