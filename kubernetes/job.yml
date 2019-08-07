@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: scripter
+  namespace: ethan-dev
+spec:
+  backoffLimit: 0
+  template:
+    spec:
+      containers:
+        - command:
+            - sleep
+            - '60'
+          image: 'ethanfrogers/loggerino:latest'
+          name: testjob
+      restartPolicy: Never
