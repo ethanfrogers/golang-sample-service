@@ -5,5 +5,5 @@ metadata:
 data:
   foo: |
     {% i am a template %}
-  foo2: {% i am a template %}
+  foo2: '{% i am a template %}'
   bar: baz
