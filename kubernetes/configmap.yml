@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-version-issue
+data:
+  foo: |
+    {% i am a template %}
+  foo2: {% i am a template %}
+  bar: baz
