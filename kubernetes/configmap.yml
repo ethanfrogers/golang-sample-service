@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: test-version-issue
 data:
+  bar: baz
   foo2: |
     {% i am a template %}
     and so are you
-  bar: baz
