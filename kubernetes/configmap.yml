@@ -4,5 +4,5 @@ metadata:
   name: test-version-issue
 data:
   foo2: |
-    "{% i am a template %}"
+    {% i am a template %}
   bar: baz
